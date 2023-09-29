@@ -18,24 +18,33 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: kphang.github.io
+title: Kevin Phang
 email: kevin.sl.phang@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >
+  Engaged inter-disciplinary thinker with 15+ years of experience solving problems 
+  in the social services and financial services industries by combining 
+  deep business understanding with insight into technical possibilities. 
+
+  Passionate about research & development in anything involving data and system design.
+
+  Other interests include:
+  - data science for good, 
+  - homelabbing with my Dell R720, 
+  - D&D.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username:  kphang
+logo: /assets/img/logo.png
+
+github:
+  is_user_page: true
+  is_project_page: false
+  owner_url: https://github.com/kphang
 
 # Build settings
 theme: jekyll-theme-minimal
-#remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-feed
-  #- jekyll-remote-theme
-
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
