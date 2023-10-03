@@ -1,0 +1,43 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+    top: 0px;
+    padding-top: 50px;
+    z-index: 9999; 
+    background-color: white;
+}
+
+footer {
+    
+    bottom: 0px;
+    z-index: 9999;
+    background-color: white;
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+section.left {
+    width: 270px; 
+    float: left; 
+    padding-top: 50px;    
+    padding-bottom: 50px;
+    position: static; 
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+li {
+   margin-left: 25px; 
+}
